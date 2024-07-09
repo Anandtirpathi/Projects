@@ -5,3 +5,4 @@ People = input("How many people to split the bill? ")
 bill = ((float(Total_bill) / int(People) * (1 + int(Tip)/100)))
 bill = "{:.2f}".format(bill)   
 print(f"Each person should pay: {bill}")
+
